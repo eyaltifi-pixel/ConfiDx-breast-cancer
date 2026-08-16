@@ -1,0 +1,64 @@
+{
+  "version": "NCCN v4.2024 / ESMO 2023",
+  "last_updated": "2026-08-14",
+  "source_url": "https://www.nccn.org/guidelines/guidelines-detail?category=3&id=1419",
+  "her2": {
+    "positive_ihc_score": 3,
+    "equivocal_ihc_score": 2,
+    "negative_ihc_scores": [
+      0,
+      1
+    ],
+    "positive_definition": "IHC 3+ OR FISH amplified",
+    "equivocal_definition": "IHC 2+ (requires FISH confirmation)",
+    "negative_definition": "IHC 0 or 1+"
+  },
+  "ki67": {
+    "luminal_b_threshold": 20,
+    "low_proliferation": "< 20%",
+    "high_proliferation": ">= 20%",
+    "note": "Threshold varies by institution; 20% is standard cutoff"
+  },
+  "hormone_receptors": {
+    "positive_threshold_percent": 1,
+    "positive_definition": ">= 1% tumor cells staining positive",
+    "er_positive": "Any ER+ qualifies as hormone receptor-positive",
+    "pr_role": "PR negativity in ER+ disease shifts toward Luminal B"
+  },
+  "subtypes": {
+    "Luminal A": {
+      "ER": "Positive",
+      "PR": "Positive (preferably high)",
+      "HER2": "Negative",
+      "Ki67": "< 20%",
+      "grade": "Low (1-2) preferred"
+    },
+    "Luminal B": {
+      "ER": "Positive",
+      "PR": "Negative OR low",
+      "HER2": "Negative",
+      "Ki67": ">= 20%",
+      "grade": "Any"
+    },
+    "HER2-enriched": {
+      "ER": "Negative",
+      "PR": "Negative",
+      "HER2": "Positive (IHC 3+ or FISH+)",
+      "Ki67": "Usually high",
+      "grade": "Any"
+    },
+    "Triple-negative": {
+      "ER": "Negative",
+      "PR": "Negative",
+      "HER2": "Negative",
+      "Ki67": "Usually high",
+      "grade": "Any"
+    }
+  },
+  "staging": {
+    "t1_size_cm": 2,
+    "t2_size_cm": 5,
+    "t3_size_cm": null,
+    "n1_nodes_positive": 1
+  }
+}

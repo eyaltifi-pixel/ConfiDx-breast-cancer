@@ -1,0 +1,130 @@
+{
+  "phase": "Phase 2: Guideline Injection and Verification",
+  "timestamp": "2026-08-14T17:22:59.649800",
+  "guideline_version": "NCCN v4.2024 / ESMO 2023",
+  "results": {
+    "task1_test.json": {
+      "injection": {
+        "total": 718,
+        "verified": 718,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": {
+        "total": 718,
+        "checked": 718,
+        "inconsistencies": [],
+        "inconsistency_rate": 0.0
+      }
+    },
+    "task2_test.json": {
+      "injection": {
+        "total": 718,
+        "verified": 718,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    },
+    "task3_test.json": {
+      "injection": {
+        "total": 718,
+        "verified": 718,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    },
+    "task4_test.json": {
+      "injection": {
+        "total": 718,
+        "verified": 718,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    },
+    "task1_train.json": {
+      "injection": {
+        "total": 2513,
+        "verified": 2513,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": {
+        "total": 2513,
+        "checked": 2513,
+        "inconsistencies": [],
+        "inconsistency_rate": 0.0
+      }
+    },
+    "task2_train.json": {
+      "injection": {
+        "total": 2513,
+        "verified": 2513,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    },
+    "task3_train.json": {
+      "injection": {
+        "total": 2513,
+        "verified": 2513,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    },
+    "task4_train.json": {
+      "injection": {
+        "total": 2513,
+        "verified": 2513,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    },
+    "task1_val.json": {
+      "injection": {
+        "total": 359,
+        "verified": 359,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": {
+        "total": 359,
+        "checked": 359,
+        "inconsistencies": [],
+        "inconsistency_rate": 0.0
+      }
+    },
+    "task2_val.json": {
+      "injection": {
+        "total": 359,
+        "verified": 359,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    },
+    "task3_val.json": {
+      "injection": {
+        "total": 359,
+        "verified": 359,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    },
+    "task4_val.json": {
+      "injection": {
+        "total": 359,
+        "verified": 359,
+        "issues": [],
+        "compliance_rate": 1.0
+      },
+      "coherence": null
+    }
+  }
+}

@@ -1,0 +1,8 @@
+venv_confidx/
+data/raw/
+data/processed/
+models/
+logs/
+*.zip
+__pycache__/
+*.pyc
