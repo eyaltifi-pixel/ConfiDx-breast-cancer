@@ -1,0 +1,5269 @@
+{
+  "summary": {
+    "total_examples": 718,
+    "n_hallucinated": 33,
+    "hallucination_rate_level1_pct": 4.6,
+    "conflicts_by_field": {
+      "PR": 33
+    }
+  },
+  "details": [
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0009"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0016"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0017"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0020"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0024"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0025"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0030"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0033"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0038"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0042"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0043"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0054"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0059"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0064"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0072"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0074"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0085"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0087"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0094"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0102"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0104"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0109"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0127"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0131"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0135"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0142"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0144"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0148"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "TCGA_0151"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0167"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0170"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0194"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0209"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0214"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0216"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0225"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0231"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0249"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0252"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0262"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0263"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0265"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0269"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0279"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0281"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0284"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0285"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0286"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0289"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0294"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0296"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0297"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0305"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0307"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0308"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0309"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0312"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0320"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0330"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0333"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0342"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0346"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0353"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0358"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0361"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0372"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0381"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0383"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0386"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0391"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0397"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0406"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0411"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0412"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0414"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "TCGA_0421"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0424"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0427"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0429"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0432"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0435"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0438"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0442"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0452"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0461"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0475"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0477"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0478"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0479"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0480"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0486"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0487"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0489"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0493"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0494"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0497"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0499"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0513"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0515"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0516"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0518"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0521"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0527"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0541"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0546"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0552"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0557"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0559"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0562"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0577"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0583"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0589"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0600"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0611"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0614"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0621"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0629"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0630"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0641"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0644"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0648"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0655"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0657"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0660"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0661"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0663"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0687"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0692"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0694"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0702"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0703"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0706"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0708"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0712"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0714"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0727"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0728"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0731"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0736"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0740"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0744"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0746"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0750"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0763"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0765"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0771"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0787"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0788"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0802"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0808"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0809"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0817"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "TCGA_0821"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0829"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0831"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0834"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0838"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0841"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0848"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "TCGA_0850"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0865"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0868"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0869"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "TCGA_0872"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0875"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0878"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0883"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0884"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0889"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "TCGA_0890"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0896"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0904"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0907"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0921"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0926"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0929"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_0932"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0934"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0936"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0938"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0941"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0945"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0950"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0963"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0966"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_0970"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "TCGA_0983"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_0988"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0991"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0996"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_0998"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_1000"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_1011"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "TCGA_1018"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_1022"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_1027"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_1031"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_1034"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_1036"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "TCGA_1040"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_1046"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "TCGA_1051"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "TCGA_1076"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0006"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0009"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0024"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0027"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0032"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_0035"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0037"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0045"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0047"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0058"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0070"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0071"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0074"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0077"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0084"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0093"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0105"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0107"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0111"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0113"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0119"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0123"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0127"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0128"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0132"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0137"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0139"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0140"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0141"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0143"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0148"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0150"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0155"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0162"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0171"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0176"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0181"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0185"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0193"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0195"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0201"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0204"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0211"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0221"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0229"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0241"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0244"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0267"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0269"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0274"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0275"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0280"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0281"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0283"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0285"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0286"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0293"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0299"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0306"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0309"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0310"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0321"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0322"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0323"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0326"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0337"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0341"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0343"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0356"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0357"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0370"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0372"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0373"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0378"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0381"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0384"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0394"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0396"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0401"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0411"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0413"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0419"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0427"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0428"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0430"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0433"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0438"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0439"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0447"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0478"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0479"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0487"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0489"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0491"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0495"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0499"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0502"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0504"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0509"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0513"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0514"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0520"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0522"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0526"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0528"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0530"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0536"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0540"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0542"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0543"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0544"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0555"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0560"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0563"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0571"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0573"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0587"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0590"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0594"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0606"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0608"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0612"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0616"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0624"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0625"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0626"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0627"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_0633"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0636"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0642"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0651"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0657"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0664"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0672"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0680"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0683"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0687"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0704"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0705"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0713"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0714"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0720"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0725"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0729"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0731"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0732"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0737"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0738"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0744"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0747"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0749"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0750"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0753"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0754"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0771"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0776"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0778"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0779"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0782"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0783"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0791"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0792"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0793"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0795"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0798"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0799"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0803"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0805"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0809"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0814"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0818"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0819"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0823"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0825"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0826"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0835"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0836"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0845"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0849"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_0852"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0853"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0856"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0861"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0862"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0865"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0868"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0872"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0875"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0876"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_0879"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0884"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_0887"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0901"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0903"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0915"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0916"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0923"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0932"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0935"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0936"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0938"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_0953"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0954"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0960"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_0977"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0993"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0994"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_0995"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1005"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1008"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1010"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1011"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1014"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1018"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1019"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1022"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1025"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1026"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1029"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1031"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1032"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1039"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1040"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1041"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1047"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1051"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1060"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1062"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1063"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1067"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1069"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1074"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1075"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1076"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1080"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1088"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1098"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1103"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1104"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1108"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1109"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1110"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1112"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1113"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1118"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1145"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1146"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1152"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1159"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1164"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1165"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1177"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1178"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_1190"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1194"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1195"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1202"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1205"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1206"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1211"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1212"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1219"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1223"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1229"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1231"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1238"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1248"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1254"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1255"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1256"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1258"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1264"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1265"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1267"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1270"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1272"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1282"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1286"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1292"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1293"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1295"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1297"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1298"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1302"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1305"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1320"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1339"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1342"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1350"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1351"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1360"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1361"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1366"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1371"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1376"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1383"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1384"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1387"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1393"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1400"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1403"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1408"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1410"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1411"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1416"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1419"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1421"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1424"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_1434"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1436"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1437"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1448"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_1453"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1455"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1457"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1458"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1467"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1482"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1488"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1489"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1491"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1498"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1505"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1506"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1510"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1514"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1520"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1522"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1530"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1541"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1542"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1544"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1565"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1566"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1571"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1580"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1581"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1593"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1601"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1607"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1611"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1612"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1614"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1623"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1625"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1628"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1632"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1633"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1637"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1639"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1640"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1645"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1654"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1657"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1660"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1686"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1693"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1696"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1709"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1714"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1720"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1724"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1725"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1733"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1738"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1748"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1752"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1757"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Negative",
+          "generated_value": "Positive",
+          "detail": "conflit PR: source='Negative', généré='Positive'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1761"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1773"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1781"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1782"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1783"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1800"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1813"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1815"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1822"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1827"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1828"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1844"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1847"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1849"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1851"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1853"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1862"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1864"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1866"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1867"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1876"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1879"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1880"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1883"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1888"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1892"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1896"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1901"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1903"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1905"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1906"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1907"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1915"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1920"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1925"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1929"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1940"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1942"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1943"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1944"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 5,
+      "patient_id": "METABRIC_1948"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1949"
+    },
+    {
+      "has_hallucination": true,
+      "conflicts": [
+        {
+          "field": "PR",
+          "source_value": "Positive",
+          "generated_value": "Negative",
+          "detail": "conflit PR: source='Positive', généré='Negative'"
+        }
+      ],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1953"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1960"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 4,
+      "patient_id": "METABRIC_1964"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1971"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_1977"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1987"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_1989"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2022"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2029"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2034"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2035"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2038"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2045"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2058"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2062"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2066"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2071"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2074"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2076"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2077"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2078"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2080"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2081"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2084"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2091"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2095"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2098"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2104"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2109"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2110"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2116"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2133"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2134"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2135"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2136"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2143"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2150"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2154"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2155"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2164"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2182"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2187"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2190"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2195"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2203"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2204"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2208"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "METABRIC_2213"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2216"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2218"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2220"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2223"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2228"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2231"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2234"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2240"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2249"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2252"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2254"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "METABRIC_2260"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2265"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2269"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2279"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2284"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2290"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2314"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2320"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2333"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2334"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2337"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2338"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2342"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2344"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2348"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2352"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2354"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2365"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2368"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2374"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2378"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2390"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2391"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2404"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2408"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2418"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2421"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2424"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2434"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2435"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2440"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2443"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2445"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2451"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2453"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "METABRIC_2461"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2462"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2473"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2478"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2483"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2488"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 2,
+      "patient_id": "METABRIC_2492"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2496"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 3,
+      "patient_id": "METABRIC_2500"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 0,
+      "patient_id": "METABRIC_2503"
+    },
+    {
+      "has_hallucination": false,
+      "conflicts": [],
+      "fields_checked": 6,
+      "fields_verifiable": 1,
+      "patient_id": "METABRIC_2508"
+    }
+  ]
+}
