@@ -1,0 +1,18 @@
+{
+  "mode": "DEMONSTRATION",
+  "split": "test",
+  "diagnostic_accuracy_pct": 85.93,
+  "ece_task1": 0.1443,
+  "uncertainty_recognition": {
+    "accuracy_eu": 87.23,
+    "f1_eu": 70.89,
+    "precision_eu": 59.71,
+    "recall_eu": 87.23
+  },
+  "ece_task3": 0.1387,
+  "explanation_faithfulness": {
+    "bertscore_f1": 99.61,
+    "sentence_bert_similarity": 99.67,
+    "meteor": 98.96
+  }
+}
