@@ -1,0 +1,3914 @@
+{
+  "n_per_arm_target": 195,
+  "calibration_sample_size": 60,
+  "dry_run": true,
+  "summary": {
+    "total_sampled": 390,
+    "total_judged": 0,
+    "n_inconsistent_level3": 0,
+    "hallucination_rate_level3_pct": null,
+    "inconsistent_by_condition": {}
+  },
+  "details": [
+    {
+      "patient_id": "METABRIC_2187",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0614",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0142",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0401",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0267",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0137",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0750",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0546",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2378",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1686",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0480",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1920",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1067",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0209",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0170",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0497",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0119",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0176",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1457",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1971",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0148",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1782",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0006",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2228",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2462",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1060",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0127",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1202",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1915",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0419",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0030",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0872",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2451",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0732",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2354",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0850",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0107",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0720",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2478",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0494",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0872",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0516",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0798",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0747",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1987",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0343",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0281",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1254",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1632",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0692",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0865",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0435",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1725",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0504",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2116",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2078",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0805",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1876",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_1031",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0406",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0285",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0148",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0491",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0438",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2434",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0541",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2290",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2338",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1219",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0818",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0883",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0836",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0791",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0071",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0370",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0412",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2035",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0929",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1623",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2492",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0884",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1258",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0868",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0378",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1757",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0123",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0642",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0320",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0150",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2445",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0608",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0995",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0372",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0383",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0077",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1827",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0606",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0084",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1434",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0954",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1248",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0787",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0356",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2483",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0274",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2408",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1637",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0341",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1901",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1088",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1896",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0993",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2216",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2077",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0746",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1488",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1410",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0493",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0289",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0600",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0838",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2348",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2344",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0372",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0887",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0875",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1282",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1601",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0285",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1733",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0054",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0630",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2249",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2220",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2342",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2503",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2223",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1112",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0868",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2150",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0020",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1944",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1436",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0950",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1467",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0562",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0522",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1781",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2404",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1940",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0852",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0878",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1639",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1611",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0009",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0636",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1387",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0102",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1844",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0809",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0555",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0211",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0333",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0221",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2231",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0478",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1376",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0397",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1614",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0694",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0706",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1302",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0890",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1964",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1593",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1069",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2109",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0024",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0587",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1929",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1738",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1145",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1520",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1211",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0660",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0275",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0140",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1883",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0729",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0109",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0155",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2374",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0033",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0411",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0342",
+      "task_num": 2,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0150",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0391",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0209",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0683",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0411",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1506",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0201",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0427",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2344",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1376",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0105",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1639",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0727",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1849",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1867",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1297",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0241",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2440",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1018",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_1022",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0499",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0516",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2269",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1104",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0783",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1069",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1026",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1272",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0309",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2249",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2216",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0518",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0353",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1008",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0731",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0589",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0280",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_1031",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2421",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1632",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1202",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0763",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1067",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0988",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2478",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1258",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0281",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0427",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1165",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1720",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2348",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0297",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1640",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0074",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0497",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0195",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0896",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2424",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2462",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1351",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0093",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0995",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0342",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0889",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0868",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0017",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0923",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0356",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1223",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0478",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2378",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1752",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1383",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0848",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2320",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0514",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0113",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0333",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1880",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1654",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2473",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0594",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0330",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2231",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1901",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1320",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1448",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1611",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0868",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2081",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1482",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0442",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0998",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0397",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1943",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2503",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0185",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1010",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0657",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1847",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0274",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1879",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1942",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0263",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0452",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1060",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1896",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1815",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1565",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0608",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0326",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0037",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2084",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0204",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2154",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0954",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0714",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0528",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1238",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1964",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0414",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0042",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1248",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1800",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0527",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0421",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1633",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2203",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1458",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1915",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2451",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0771",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2038",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0267",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0835",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0447",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2071",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1145",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1657",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0536",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1601",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0038",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1738",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0526",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0557",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0731",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0343",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0641",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0577",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1733",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0850",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0384",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0433",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0074",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0744",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0035",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1761",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1457",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1387",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0285",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0305",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0494",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2136",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0413",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0284",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0020",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0705",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0712",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0337",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0878",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1164",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1080",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1892",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0614",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2252",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0821",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0231",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1987",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0817",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1103",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0703",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0269",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0560",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0818",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1960",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_0795",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_1724",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2254",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0552",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2390",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2213",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2133",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "METABRIC_2218",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0883",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    },
+    {
+      "patient_id": "TCGA_0945",
+      "task_num": 4,
+      "condition": "with_guidelines",
+      "judgment": {
+        "consistent": null,
+        "confidence": null,
+        "reasoning": "DRY-RUN (pas d'appel API effectue)"
+      }
+    }
+  ]
+}

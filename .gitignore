@@ -6,3 +6,4 @@ logs/
 *.zip
 __pycache__/
 *.pyc
+guidelines/*_SECRET.json

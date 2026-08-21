@@ -1,0 +1,14 @@
+{
+  "status": "MATERIEL PRET - en attente de notation par de vrais medecins",
+  "n_sample_built": 120,
+  "n_sample_target": 120,
+  "n_calibration_sample": 40,
+  "forms_to_fill": {
+    "physician1": "C:\\Users\\oumayma\\Documents\\ConfiDx-breast-cancer\\guidelines\\phase7_form_physician1_TO_FILL.csv",
+    "physician2": "C:\\Users\\oumayma\\Documents\\ConfiDx-breast-cancer\\guidelines\\phase7_form_physician2_TO_FILL.csv",
+    "calibration_physician1": "C:\\Users\\oumayma\\Documents\\ConfiDx-breast-cancer\\guidelines\\phase7_calibration_physician1_TO_FILL.csv",
+    "calibration_physician2": "C:\\Users\\oumayma\\Documents\\ConfiDx-breast-cancer\\guidelines\\phase7_calibration_physician2_TO_FILL.csv",
+    "calibration_physician3": "C:\\Users\\oumayma\\Documents\\ConfiDx-breast-cancer\\guidelines\\phase7_calibration_physician3_TO_FILL.csv"
+  },
+  "next_step": "Une fois les 5 CSV remplis (colonnes correctness_1_5 et completeness_1_5), appeler compute_real_agreement_report() pour obtenir les vrais Cohen's kappa et Fleiss' kappa."
+}
