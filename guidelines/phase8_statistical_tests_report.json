@@ -1,0 +1,15 @@
+{
+  "status": "FONCTIONS VALIDEES (tests unitaires OK) - en attente de donnees appariees reelles (Lot 1)",
+  "functions_ready": [
+    "wilcoxon_paired_test",
+    "mcnemar_paired_test",
+    "benjamini_hochberg_correction",
+    "bootstrap_confidence_interval"
+  ],
+  "blocking_dependencies": [
+    "Predictions reelles du modele fine-tune (Lot 1, Phase 3)",
+    "Presence reelle de la condition 'without_guidelines' dans les donnees (correctif deja signale au Lot 1)",
+    "Jeu de donnees METABRIC pour la validation externe"
+  ],
+  "planned_comparisons": "4 sous-taches x 2 conditions x 2 datasets (TCGA-BRCA interne, METABRIC externe) = 16 comparaisons -> necessitent la correction Benjamini-Hochberg"
+}
