@@ -1,80 +1,49 @@
-# ConfiDx
+# ConfiDx — Quantification de l'incertitude pour la prédiction du sous-type moléculaire du cancer du sein
 
+Ce dépôt contient le travail expérimental du projet ConfiDx : un LLM fine-tuné (LoRA) est utilisé pour prédire le sous-type moléculaire du cancer du sein (Luminal A, Luminal B, HER2-enrichi, Triple-négatif) à partir de rapports de pathologie, avec une couche de **quantification et de fusion de l'incertitude** (signaux verbalisés, cohérence interne, log-probabilités) puis une **validation statistique** des résultats.
 
-## 1. Introduction
-This repository contains code for the paper "Uncertainty-Aware Large Language Models for Explainable Disease Diagnosis" (npj Digital Medicine 2025).
+## Structure du dépôt
 
+```
+ConfiDx-breast-cancer/
+├── data/
+│   └── processed/              # Jeux de données prétraités (train/val/test) issus de TCGA & METABRIC
+│       ├── split_mapping.json  # Mapping patient_id -> split (train/val/test)
+│       ├── train/               # task{1..4}_train.json (+ variantes _no_guidelines)
+│       ├── val/                 # task{1..4}_val.json (+ variantes _no_guidelines)
+│       └── test/                # task{1..4}_test.json (+ variantes _no_guidelines)
+├── results/
+│   ├── predictions/             # Générations du modèle (LoRA) par tâche, sur val/test
+│   └── phase5_uncertainty_fusion/
+│       ├── phase5_summary.json            # Métriques (AUROC, AUPRC, Brier, F1...) par méthode d'incertitude
+│       ├── phase5_calibration_params.json # Seuils et poids calibrés sur le split val
+│       └── phase5_fusion_detailed.json    # Détail patient par patient de la fusion des signaux
+└── src/
+    └── phase8_statistics.py     # Tests statistiques (McNemar, Wilcoxon, correction Benjamini-Hochberg)
+```
 
-## 2. Acknowledgment
+## Description des tâches
 
-This repository is built upon the **LitGPT** framework developed by the Lightning-AI team.  
-Most of the training and model implementation code is derived from the official "[LitGPT](https://github.com/Lightning-AI/litgpt)" repository.
+Chaque tâche (task1–task4) correspond à une reformulation ou une variante de l'instruction de prédiction du sous-type moléculaire (avec/sans guidelines cliniques NCCN/ESMO incluses dans le prompt). Les patients proviennent des cohortes publiques **TCGA** et **METABRIC**.
 
-We have made some modifications to the original codebase to support the experiments and datasets used in our research paper.  
-Full credit for the core model implementation and training framework belongs to the LitGPT authors.
+## Pipeline expérimental (phases)
 
+1. **Fine-tuning LoRA** du modèle sur les données d'entraînement (`data/processed/train`).
+2. **Génération de prédictions** sur val/test avec plusieurs échantillons par patient et leurs log-probabilités (`results/predictions/`).
+3. **Phase 5 — Fusion de l'incertitude** : combinaison de 3 signaux (incertitude verbalisée S1, incohérence inter-génération S2, incertitude par log-probabilité S3) via vote majoritaire, moyenne pondérée et régression logistique, avec calibration des seuils sur le split val (`results/phase5_uncertainty_fusion/`).
+4. **Phase 8 — Validation statistique** (`src/phase8_statistics.py`) : test de McNemar (accuracy binaire appariée) et test de Wilcoxon (scores continus) entre les 6 méthodes d'incertitude, avec correction de Benjamini-Hochberg pour comparaisons multiples, sur les 718 patients du set de test.
 
-## 3. Usage
+## Notes importantes
 
-### Environment
+- **Modèle et checkpoints LoRA** : les poids du modèle fine-tuné (`models/phase3_lora/`) ne sont **pas inclus** dans ce dépôt (trop volumineux pour Git). Pensez à les héberger séparément (Hugging Face Hub, Git LFS, ou lien Drive) et à référencer le lien ici.
+- **Logs d'entraînement** (`logs/phase3/`) : idem, non inclus — à ajouter séparément si besoin.
+- Certains fichiers de prédictions contiennent des valeurs `-Infinity` (log-probabilité), qui ne sont pas du JSON strict — à garder en tête si vous les rechargez avec un parseur strict.
 
-Install packages:
+## Reproduire les statistiques (Phase 8)
+
 ```bash
-pip install 'litgpt[extra]'
+pip install numpy scipy statsmodels
+python src/phase8_statistics.py
 ```
 
-### Datasets
-
-In this study, we proposed splitting the long instructions into four smaller, more manageable parts. Each part focused on a specific task: disease diagnosis, diagnostic explanation, recognition of diagnostic uncertainty, and explanation of diagnostic uncertainty. To facilitate this, we designed a multi-task learning framework that utilized the four distinct sets of annotated data for instruction fine-tuning.
-
-Generally, each training instance has three components:
-1. An instruction describing the task to perform
-2. Input data that describes the patient's information or other related information, e.g., clinical note
-3. An output that contains the ground-truth, such as diagnosis, diagnostic explanations, or uncertainty label
-
-Please organize the data into JSON format:
-```json
-{
-    "instruction": "You are an experienced doctor. Given a patient's clinical note, please use step-by-step deduction to identify the most likely disease...",
-    "input": "A xx-year-old man ...",
-    "output": "Diagnosis ..."
-}
-```
-
-Place the JSON file in the corresponding folder. See "[Tutorial](https://github.com/Lightning-AI/litgpt)" for details.
-
-### Example
-
-Set up the config file before running the code.
-```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 litgpt finetune_lora stabilityai/stablelm-base-alpha-3b --device 8 --precision "bf16-true"
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 litgpt finetune_lora meta-llama/Meta-Llama-3.1-70B-Instruct --device 8 --precision "bf16-true"
-```
-
-
-## 4. Contact
-
-For research cooperation, please contact shuang DOT zhou AT connect.polyu DOT hk
-
-
-
-## 5. Citation
-Please kindly cite the paper if you are interested in our work.
-```bib
-@article{zhou2025uncertainty,
-  title={Uncertainty-aware large language models for explainable disease diagnosis},
-  author={Zhou, Shuang and Wang, Jiashuo and Xu, Zidu and Wang, Song and Brauer, David and Welton, Lindsay and Cogan, Jacob and Chung, Yuen-Hei and Tian, Lei and Zhan, Zaifu and others},
-  journal={npj Digital Medicine},
-  volume={8},
-  number={1},
-  pages={690},
-  year={2025},
-  publisher={Nature Publishing Group UK London}
-}
-```
-
-or
-
-```
-Zhou, S., Wang, J., Xu, Z. et al. Uncertainty-aware large language models for explainable disease diagnosis. npj Digit. Med. 8, 690 (2025). https://doi.org/10.1038/s41746-025-02071-6
-```
+> Le script attend les données sous `/content/CONFIDX` (chemin Google Colab) — adaptez la variable `BASE` en haut du fichier si vous l'exécutez en local.
