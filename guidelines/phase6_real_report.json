@@ -1,0 +1,13 @@
+{
+  "mode": "REEL",
+  "split": "test",
+  "diagnostic_accuracy_pct": 49.16,
+  "ece_task1": 0.1859,
+  "uncertainty_recognition": {
+    "accuracy_eu": 0.78,
+    "f1_eu": 1.42,
+    "precision_eu": 7.69,
+    "recall_eu": 0.78
+  },
+  "ece_task3": 0.281
+}
