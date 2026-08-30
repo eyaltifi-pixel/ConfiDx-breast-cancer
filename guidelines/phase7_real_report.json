@@ -1,0 +1,21 @@
+{
+  "n_total": 120,
+  "breakdown": {
+    "task_1_with_guidelines": 15,
+    "task_1_without_guidelines": 15,
+    "task_2_with_guidelines": 15,
+    "task_2_without_guidelines": 15,
+    "task_3_with_guidelines": 15,
+    "task_3_without_guidelines": 15,
+    "task_4_with_guidelines": 15,
+    "task_4_without_guidelines": 15
+  },
+  "n_blinded": 120,
+  "files_generated": [
+    "phase7_form_physician1_TO_FILL.csv",
+    "phase7_form_physician2_TO_FILL.csv",
+    "phase7_calibration_physician1_TO_FILL.csv",
+    "phase7_calibration_physician2_TO_FILL.csv",
+    "phase7_calibration_physician3_TO_FILL.csv"
+  ]
+}
