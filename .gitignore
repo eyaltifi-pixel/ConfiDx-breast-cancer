@@ -14,3 +14,7 @@ config_hub/
 extensions/
 tests/
 data/alpaca/
+
+# Residus non utilises (confirmes sans lien avec le pipeline)
+PMC.xlsx
+setup_project.sh
