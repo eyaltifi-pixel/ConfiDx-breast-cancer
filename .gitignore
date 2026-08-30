@@ -7,3 +7,10 @@ logs/
 __pycache__/
 *.pyc
 guidelines/*_SECRET.json
+
+# Résidus du framework ConfiDx original (non utilisés dans cette adaptation)
+litgpt/
+config_hub/
+extensions/
+tests/
+data/alpaca/
